@@ -1,0 +1,97 @@
+* {
+    font-family:Verdana, Geneva, sans-serif;
+}
+h1{
+    color:rgb(1, 1, 14)
+
+}
+ul {
+    margin: 0;
+    padding:0;
+}
+
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+#site{
+    /* Definimos a largura da página */
+    width:1000px;
+    /* Definirmos a altura da página*/
+    height:600px;
+    /* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
+    /*top : posição de cima */
+    margin-top:auto;
+    /* left: posição de esquerda*/
+    margin-left:auto;
+    /* bottom : posição de baixo */
+    margin-bottom:auto;
+    /* right : posição de direita */
+    margin-right:auto;
+    /* Aqui definiremos a cor de fundo da página */
+    background-color:#dbf7ed;
+  }
+
+  #header{
+    width:1000px;
+    height:270px;
+}
+  #conteudo{
+    width:1000px;
+    height:100px;
+    background-color:rgb(230, 230, 230);
+  }
+  #footer{
+    width:1000px;
+    font-size: small;
+    /* altura da div */
+    height:auto;
+    /* Cor de fundo da div */
+    background-color:rgb(235, 235, 235);
+    }
+
+    #conteudo-left{
+        width:500px;
+        height:300px;
+        float:left;
+        background-color:rgb(247, 247, 247);
+    }
+    #conteudo-right{
+        width:500px;
+        height:300px;
+        float:left;
+        background-color:rgb(247, 247, 247);
+    }
+    #conteudo-ods{
+        width:500px;
+        height:300px;
+        float:left;
+        background-color:rgb(247, 247, 247);
+    }
+    #conteudo-ods-right{
+        width:900px;
+        height:300px;
+        float:left;
+        background-color:rgb(247, 247, 247);
+    }
+    #conteudo-ods-left{
+        width:100px;
+        height:300px;
+        float:left;
+        background-color:rgb(247, 247, 247);
+    }
